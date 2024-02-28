@@ -382,7 +382,7 @@ while running:
     screen.blit(background_img, (0,0))
     all_sprites.draw(screen)
     draw_text(screen, str(score), 18, WIDTH/2, 10)
-    draw_health(screen, player.health, 10, 30)
+    draw_health(screen, player.health, 15, 20)
     draw_lives(screen, player.lives, player_mini_img, WIDTH - 130, 15)
     pygame.display.update()
 
