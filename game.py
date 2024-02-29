@@ -113,12 +113,16 @@ def draw_init():
                 waiting = False
                 return False
 
-def draw_end():
+def draw_end(score):
     screen.blit(end_img, (0,0))
     draw_text(screen, '生日快樂拉!!!', 64, WIDTH/2, HEIGHT/4)
     pygame.display.update()
     time.sleep(1)
-    draw_text(screen, '按任意鍵繼續減肥', 22, WIDTH/2, HEIGHT/2)
+    score_string = str(score)
+    draw_text(screen, '總得分: '+score_string, 30, WIDTH/2, HEIGHT/2)
+    pygame.display.update()
+    time.sleep(1)
+    draw_text(screen, '按任意鍵繼續減肥', 25, WIDTH/2, HEIGHT*3/4)
     pygame.display.update()
     waiting = True
     while waiting:
@@ -309,7 +313,7 @@ while running:
         score = 0
     
     if show_end:
-        close = draw_end()
+        close = draw_end(score)
         if close:
             break
         show_end = False
