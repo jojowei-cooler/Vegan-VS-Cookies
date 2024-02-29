@@ -1,9 +1,9 @@
 # Project for birthday gift to my friend.
 ## Reference
-Background removal: https://www.remove.bg/zh-tw
-Online video editor: https://www.flexclip.com/tw/editor/
-Demo video: https://youtu.be/qFPKZ1iFAEY?si=9ocOLxdbl57fqvW0
-Tutorial video: https://youtu.be/7CiCmBTbo5s?si=DvqkqwZHghzlpIEV
+- Background removal: https://www.remove.bg/zh-tw
+- Online video editor: https://www.flexclip.com/tw/editor/
+- Demo video: https://youtu.be/qFPKZ1iFAEY?si=9ocOLxdbl57fqvW0
+- Tutorial video: https://youtu.be/7CiCmBTbo5s?si=DvqkqwZHghzlpIEV
 ## Tutorial
 1. Get into folder "gamePackage".
 2. Double-click "game.exe".
